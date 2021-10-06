@@ -1,0 +1,79 @@
+HEADER FILE
+
+; file:	fileName.asm   
+; target: ATmega128L-4MHz-STK300
+; description: usageOfTheFile
+; authors: Vincent Gherold & Alain Schöbi
+
+
+
+SECTION
+
+; === nomDeLaSection ===
+
+
+
+SOUS ROUTINE
+
+; --- nomDeLaSousRoutine(minuscules) ---
+; descriptionDeLaSousRoutine
+; in parameterIn1, parameterIn2, parameterIn3
+; mod registersMod1, registersMod2
+; out registersOut
+; ---
+
+
+
+MACRO 
+
+; --- NOMDELAMACRO(majuscules) ---
+; descriptionDeLaMacro
+; in parameterIn1, parameterIn2, parameterIn3
+; mod registersMod1, registersMod2
+; out registersOut
+; ---
+.macro NOMDELAMACRO
+
+.endmacro
+
+
+
+LABEL
+
+label(minuscules):
+
+
+
+INTERRUPTION SUBROUTINES
+
+iNomDeLaroutine: (i for interrupt)
+	
+
+
+Commentaire:
+
+// ici le commentaire
+
+
+time max:
+WAIT_US = 49152 us
+
+
+USED PORT
+PORTA: Buzzer
+PORTB: LED DEBUG
+PORTC:
+PORTD: Button
+PORTE: motor
+PORTF:
+
+
+USED TIMER
+TIME0: Music
+TIME1: Motor
+
+Register
+r15: motor position
+r14: value pas
+
+r8: c0, compteur temps avant inactivité
